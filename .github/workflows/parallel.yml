@@ -4,9 +4,6 @@ on: push
 
 jobs:
   install:
-  # ... omitted install job from above
-
-  cypress-run:
     runs-on: ubuntu-22.04
     needs: install
     strategy:
@@ -27,7 +24,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
-          build: npx cypress run
+          build: npx cypress r
           record: true
           parallel: true
           start: npm start
