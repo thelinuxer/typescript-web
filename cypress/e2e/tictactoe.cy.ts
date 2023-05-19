@@ -8,4 +8,12 @@ describe('tic tac toe spec', () => {
     cy.get('#square-2').click();
     cy.get('#winner').should('have.text', 'Winner: X')
   });
+
+  it('a cell selected by a player cannot be selected by the other player', () => {
+
+  });
+
+  it('go back to certain move', () => {
+
+  });
 });
