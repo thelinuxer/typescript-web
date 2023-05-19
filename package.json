@@ -1,0 +1,26 @@
+{
+  "name": "cypress-web",
+  "version": "1.0.0",
+  "description": "Testing with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YahyaQandel/Cypress-web.git"
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YahyaQandel/Cypress-web/issues"
+  },
+  "homepage": "https://github.com/YahyaQandel/Cypress-web#readme",
+  "devDependencies": {
+    "cypress": "^12.12.0",
+    "typescript": "^5.0.4"
+  }
+}
